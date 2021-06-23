@@ -5,6 +5,9 @@
     font-weight: 700;
     line-height: 60 / 44 * 100%;
     color: #21243d;
+    @media (max-width: $md3+px) {
+        font-size: 32px;
+    }
 }
 .text {
     font-size: 16px;
