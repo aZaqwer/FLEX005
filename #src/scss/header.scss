@@ -65,6 +65,9 @@
         font-size: 20px;
         color: #000000;
         transition: color 0.3s ease 0s;
+        &._active {
+            color: #ff6464;
+        }
         @media (any-hover: hover) {
             &:hover {
                 color: #ff6464;
